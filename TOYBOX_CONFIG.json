@@ -1,6 +1,6 @@
 {
-  "title": "My TOYBOX",
-  "description": "A collection of my creations",
+  "title": "Dashboard TOYBOX",
+  "description": "Interactive dashboards and data visualization components",
   "theme": "auto",
   "layout": "grid",
   "showFooter": true

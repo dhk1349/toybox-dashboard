@@ -2,7 +2,7 @@ name: Deploy TOYBOX to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main, master]
     paths:
       - 'src/artifacts/**'
       - 'TOYBOX_CONFIG.json'
