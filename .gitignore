@@ -1,0 +1,68 @@
+.specstory
+.dev.vars
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment variables
+.env*
+
+# TypeScript compiled files
+*.js
+*.js.map
+*.d.ts
+
+# BUT keep these essential hand-written files:
+!postcss.config.js
+!tailwind.config.mjs
+!src/vite-env.d.ts
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Test reports and artifacts (potentially sensitive)
+coverage/
+test-results/
+playwright-report/
+playwright-test-report.md
+
+# Screenshots and temporary images (could contain sensitive data)
+스크린샷*.png
+Screenshot*.png
+*.png
+*.jpg
+*.jpeg
+!public/*.png
+!public/*.jpg
+!public/*.jpeg
+
+# Cache and temporary files
+.cache/
+.parcel-cache/
+.vite/
+.wrangler/
+*.tmp
+*.temp
+
+# Package manager files
+.pnpm-store/
+.yarn/
